@@ -54,6 +54,10 @@ a:visited { color: #a0a; }
 /* Site
 /*
 /*****************************************************************************/
+.site-name {
+  float:left;
+  margin-left:15px;
+}
 
 .site {
   font-size: 115%;
