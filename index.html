@@ -1,18 +1,15 @@
 ---
 layout: default
+title: A guide to your digital life
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
-      
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<div class="listing">
+    {% for post in paginator.posts %}
+    <div class="post other link">
+      <h2><span class="mega-octicon octicon-flame" style="min-width: 32px;"></span><a href="/white-paper{{post.url}}">{{ post.title }}</a></h2>
+      <p class="post-date">{{ post.date | date_to_string }}</p>
 
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+      <p>{{ post.excerpt }}</p>
+    </div>
+    {% endfor %}
 </div>
