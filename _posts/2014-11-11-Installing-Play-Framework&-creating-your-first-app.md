@@ -29,6 +29,7 @@ Test your setup: open command prompt and issue command ```javac```. Output shoul
       -verbose                   Output messages about what the compiler is doing
       -deprecation               Output source locations where deprecated APIs are used
       ...
+
 ##3. Installation
 You can download two versions of Play. First, there's a minimal installation of Play with Activator. The download size of this package is only about 1M. When activator is run, it provides a easy way to install example appliations via your web browser. Applications are downloaded automatically from GitHub repos, compiled and started. I tested a few of them and seems that there's lot of material to use as an example for your own applications. **Note:** in Chrome I faced an timeout while loading dependencies, in IE there were no problems. 
 
@@ -57,6 +58,7 @@ The output should look like this:
     JAVA_OPTS          Environment variable, if unset uses ""
     SBT_OPTS           Environment variable, if unset uses ""
     ACTIVATOR_OPTS     Environment variable, if unset uses ""
+
 ##4. Creating your first application
 Creating basic starter application from template is straightforward. Here I create application called "myapp" from template "play-java", by issuing command ```activator new myapp play-java```
 
