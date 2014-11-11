@@ -4,16 +4,17 @@ title: Installing Play Framework and creating your first app
 date: "2014-11-11 21:48:00"
 ---
 In this post, we'll go through the installation of Play Framework in Windows 8 environment.
-1. Introduction to Play Framework
-2. Prerequirements
-3. Installation
-4. Creating your first application
-5. Conclusion
 
-##1. Introduction to Play Framework 2
+1. [Introduction to Play Framework](#s1)
+2. [Prerequirements](#s2)
+3. [Installation](#s3)
+4. [Creating your first application](#s4)
+5. [Conclusion](#s5)
+
+##<a name="s1"></a>1. Introduction to Play Framework 2
 Play Framework, a MVC web framework inspired by Ruby on Rails, is implemented in Java and Scala. The applications developed using Play can use both as well, as both Java and Scala can be compiled in a bytecode that can be run in JVM. Play applications are designed to be run in Netty server, but can be packaged as a .war file and then run in Java application server, such as Tomcat. 
 
-##2. Prerequirements
+##<a name="s2"></a>2. Prerequirements
 - Java JDK is installed (download from [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html))
 - JAVA_HOME is set and added to PATH variable
 
@@ -30,7 +31,7 @@ Test your setup: open command prompt and issue command ```javac```. Output shoul
       -deprecation               Output source locations where deprecated APIs are used
       ...
 
-##3. Installation
+##<a name="s3"></a>. Installation
 You can download two versions of Play. First, there's a minimal installation of Play with Activator. The download size of this package is only about 1M. When activator is run, it provides a easy way to install example appliations via your web browser. Applications are downloaded automatically from GitHub repos, compiled and started. I tested a few of them and seems that there's lot of material to use as an example for your own applications. **Note:** in Chrome I faced an timeout while loading dependencies, in IE there were no problems. 
 
 Another version is the standard offline package. Size is much larger, but it contains all the libraries needed for development. 
@@ -59,7 +60,7 @@ The output should look like this:
     SBT_OPTS           Environment variable, if unset uses ""
     ACTIVATOR_OPTS     Environment variable, if unset uses ""
 
-##4. Creating your first application
+##<a name="s4"></a>4. Creating your first application
 Creating basic starter application from template is straightforward. Here I create application called "myapp" from template "play-java", by issuing command ```activator new myapp play-java```
 
     D:\Dev>activator new myapp play-java
@@ -95,5 +96,5 @@ At this point, I browse to default application address, which is ```http://127.0
     [info] play - Application started (Dev)
 Now the browser should show the default Play start page.
 
-##5. Conclusion
+##<a name="s5"></a>5. Conclusion
 In this short tutorial we installed Play Framework, set up the required environment variables and created basic web application from template. 
