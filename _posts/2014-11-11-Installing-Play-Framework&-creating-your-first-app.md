@@ -31,7 +31,7 @@ Test your setup: open command prompt and issue command ```javac```. Output shoul
       -deprecation               Output source locations where deprecated APIs are used
       ...
 
-##<a name="s3"></a>. Installation
+##<a name="s3"></a>3. Installation
 You can download two versions of Play. First, there's a minimal installation of Play with Activator. The download size of this package is only about 1M. When activator is run, it provides a easy way to install example appliations via your web browser. Applications are downloaded automatically from GitHub repos, compiled and started. I tested a few of them and seems that there's lot of material to use as an example for your own applications. **Note:** in Chrome I faced an timeout while loading dependencies, in IE there were no problems. 
 
 Another version is the standard offline package. Size is much larger, but it contains all the libraries needed for development. 
