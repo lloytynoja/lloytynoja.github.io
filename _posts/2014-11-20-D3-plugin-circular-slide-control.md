@@ -9,8 +9,8 @@ Source code & documentation:
 
 [https://github.com/lloytynoja/d3-circular-control](https://github.com/lloytynoja/d3-circular-control)
 
-Screen shot:
+Screenshot (default color scheme):
 
 ![Screenshot](http://i.imgur.com/zTjE7iA.png)
 
-By the way - if you're in need of decent metronome, check this out: [Tempo Advance](https://itunes.apple.com/us/app/tempo-advance-metronome-polyrhythms/id368169363?mt=8) Best metronome app I've seen, hands down.
+By the way - if you're in need of decent metronome, check this out: [Tempo Advance](https://itunes.apple.com/us/app/tempo-advance-metronome-polyrhythms/id368169363?mt=8). Best metronome app I've seen, hands down.
