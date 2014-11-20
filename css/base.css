@@ -79,6 +79,7 @@ hr:before {
 header {
   margin: 0 0 20px 0;
   text-align: right;
+  border-left: 3px solid black;
 }
 
 ul.nav {
