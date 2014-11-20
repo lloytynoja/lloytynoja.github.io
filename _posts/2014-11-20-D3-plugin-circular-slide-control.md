@@ -1,6 +1,6 @@
 ---
 layout: post
-title: D3.js plugin: circular slide control
+title: D3.js plugin - circular slide control
 date: "2014-11-20 16:17:00"
 ---
 This circular control plugin for D3 is the main UI control of my recent metronome project. I'm not sure if I'll ever finish the metronome, as I already found a really good one with timer, which I especially sought after, as well as loads of other features. I still decided to release this control as proper D3 plugin with unit tests and documentation.
