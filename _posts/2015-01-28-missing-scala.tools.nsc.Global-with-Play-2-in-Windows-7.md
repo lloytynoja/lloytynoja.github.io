@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "missing scala.tools.nsc.Global" with Play 2 in Windows 7
+title: missing scala.tools.nsc.Global with Play Framework 2 in Windows 7
 date: "2015-11-28 18:00:00"
 ---
 I encountered following error while I was installing a fresh Play development environment in to my work laptop:
